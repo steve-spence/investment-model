@@ -167,7 +167,7 @@ class LSTM_Model:
         print(f"Model saved to {filepath}")
     
     def load_model(self, filepath='lstm_model.keras'):
-
+        self.load_all_data()
         """Load a pre-trained model from disk"""
         if not os.path.exists(filepath):
             raise FileNotFoundError(f"No saved model found at {filepath}")
@@ -180,13 +180,13 @@ if __name__ == "__main__":
     """"
     do you want to run the saved model?
     """
-    isSaved = False
+    isSaved = True
     
     model = LSTM_Model(num_time_steps=30, news_dir='../data/news/')
 
     if isSaved:
         # then load it
-        model.load_model('lsmt_model.keras')
+        model.load_model('lstm_model.keras')
     else:
         # then train it
         model.load_all_data()
