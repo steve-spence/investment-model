@@ -8,7 +8,7 @@ model = LSTM_Model(num_time_steps=30)
 @app.on_event("startup")
 def load_model():
     try:
-        model.load_model("model/lstm_model.keras")
+        model.load_model("lstm_model.keras")
     except Exception as e:
         print("Model failed to load:", e)
 

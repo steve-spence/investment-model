@@ -1,7 +1,7 @@
 FROM python:3.10
 
 # Set working dir
-WORKDIR /app
+WORKDIR /models
 
 # Copy code
 COPY . .

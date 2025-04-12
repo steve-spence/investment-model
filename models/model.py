@@ -159,14 +159,14 @@ class LSTM_Model:
             
         return self.model.evaluate(self.X, self.y)
     
-    def save_model(self, filepath='model/lstm_model.keras'):
+    def save_model(self, filepath='lstm_model.keras'):
         """Save the trained model to disk"""
 
         os.makedirs(os.path.dirname(filepath), exist_ok=True)
         self.model.save(filepath)
         print(f"Model saved to {filepath}")
     
-    def load_model(self, filepath='model/lstm_model.keras'):
+    def load_model(self, filepath='lstm_model.keras'):
 
         """Load a pre-trained model from disk"""
         if not os.path.exists(filepath):
@@ -186,7 +186,7 @@ if __name__ == "__main__":
 
     if isSaved:
         # then load it
-        model.load_model('model/lsmt_model.keras')
+        model.load_model('lsmt_model.keras')
     else:
         # then train it
         model.load_all_data()
