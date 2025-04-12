@@ -1,0 +1,732 @@
+[
+  {
+    "symbol": "PCAR",
+    "security": "paccar",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Construction Machinery & Heavy Transportation Equipment",
+    "Headquarters Location": "Bellevue, Washington",
+    "Date added": "1980-12-31",
+    "CIK": 75362,
+    "Founded": 1905
+  },
+  {
+    "symbol": "PKG",
+    "security": "packaging corporation of america",
+    "GICS Sector": "Materials",
+    "GICS Sub-Industry": "Paper & Plastic Packaging Products & Materials",
+    "Headquarters Location": "Lake Forest, Illinois",
+    "Date added": "2017-07-26",
+    "CIK": 75677,
+    "Founded": 1959
+  },
+  {
+    "symbol": "PLTR",
+    "security": "palantir technologies",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Internet Services & Infrastructure",
+    "Headquarters Location": "Denver, Colorado",
+    "Date added": "2024-09-23",
+    "CIK": 1321655,
+    "Founded": 2003
+  },
+  {
+    "symbol": "PANW",
+    "security": "palo alto networks",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Systems Software",
+    "Headquarters Location": "Santa Clara, California",
+    "Date added": "2023-06-20",
+    "CIK": 1327567,
+    "Founded": 2005
+  },
+  {
+    "symbol": "PARA",
+    "security": "paramount global",
+    "GICS Sector": "Communication Services",
+    "GICS Sub-Industry": "Movies & Entertainment",
+    "Headquarters Location": "New York City, New York",
+    "Date added": "1994-09-30",
+    "CIK": 813828,
+    "Founded": "2019 (Paramount Pictures 1912)"
+  },
+  {
+    "symbol": "PH",
+    "security": "parker hannifin",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Industrial Machinery & Supplies & Components",
+    "Headquarters Location": "Cleveland, Ohio",
+    "Date added": "1985-11-30",
+    "CIK": 76334,
+    "Founded": 1917
+  },
+  {
+    "symbol": "PAYX",
+    "security": "paychex",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Human Resource & Employment Services",
+    "Headquarters Location": "Penfield, New York",
+    "Date added": "1998-10-01",
+    "CIK": 723531,
+    "Founded": 1971
+  },
+  {
+    "symbol": "PAYC",
+    "security": "paycom",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Human Resource & Employment Services",
+    "Headquarters Location": "Oklahoma City, Oklahoma",
+    "Date added": "2020-01-28",
+    "CIK": 1590955,
+    "Founded": 1998
+  },
+  {
+    "symbol": "PYPL",
+    "security": "paypal",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Transaction & Payment Processing Services",
+    "Headquarters Location": "San Jose, California",
+    "Date added": "2015-07-20",
+    "CIK": 1633917,
+    "Founded": 1998
+  },
+  {
+    "symbol": "PNR",
+    "security": "pentair",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Industrial Machinery & Supplies & Components",
+    "Headquarters Location": "Worsley, United Kingdom",
+    "Date added": "2012-10-01",
+    "CIK": 77360,
+    "Founded": 1966
+  },
+  {
+    "symbol": "PEP",
+    "security": "pepsico",
+    "GICS Sector": "Consumer Staples",
+    "GICS Sub-Industry": "Soft Drinks & Non-alcoholic Beverages",
+    "Headquarters Location": "Purchase, New York",
+    "Date added": "1957-03-04",
+    "CIK": 77476,
+    "Founded": 1898
+  },
+  {
+    "symbol": "PFE",
+    "security": "pfizer",
+    "GICS Sector": "Health Care",
+    "GICS Sub-Industry": "Pharmaceuticals",
+    "Headquarters Location": "New York City, New York",
+    "Date added": "1957-03-04",
+    "CIK": 78003,
+    "Founded": 1849
+  },
+  {
+    "symbol": "PCG",
+    "security": "pg&e corporation",
+    "GICS Sector": "Utilities",
+    "GICS Sub-Industry": "Multi-Utilities",
+    "Headquarters Location": "Oakland, California",
+    "Date added": "2022-10-03",
+    "CIK": 1004980,
+    "Founded": 1905
+  },
+  {
+    "symbol": "PM",
+    "security": "philip morris international",
+    "GICS Sector": "Consumer Staples",
+    "GICS Sub-Industry": "Tobacco",
+    "Headquarters Location": "New York City, New York",
+    "Date added": "2008-03-31",
+    "CIK": 1413329,
+    "Founded": "2008 (1847)"
+  },
+  {
+    "symbol": "PSX",
+    "security": "phillips 66",
+    "GICS Sector": "Energy",
+    "GICS Sub-Industry": "Oil & Gas Refining & Marketing",
+    "Headquarters Location": "Houston, Texas",
+    "Date added": "2012-05-01",
+    "CIK": 1534701,
+    "Founded": "2012 (1917)"
+  },
+  {
+    "symbol": "PNW",
+    "security": "pinnacle west",
+    "GICS Sector": "Utilities",
+    "GICS Sub-Industry": "Multi-Utilities",
+    "Headquarters Location": "Phoenix, Arizona",
+    "Date added": "1999-10-04",
+    "CIK": 764622,
+    "Founded": 1985
+  },
+  {
+    "symbol": "PNC",
+    "security": "pnc financial services",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Diversified Banks",
+    "Headquarters Location": "Pittsburgh, Pennsylvania",
+    "Date added": "1988-04-30",
+    "CIK": 713676,
+    "Founded": 1845
+  },
+  {
+    "symbol": "POOL",
+    "security": "pool corporation",
+    "GICS Sector": "Consumer Discretionary",
+    "GICS Sub-Industry": "Distributors",
+    "Headquarters Location": "Covington, Louisiana",
+    "Date added": "2020-10-07",
+    "CIK": 945841,
+    "Founded": 1993
+  },
+  {
+    "symbol": "PPG",
+    "security": "ppg industries",
+    "GICS Sector": "Materials",
+    "GICS Sub-Industry": "Specialty Chemicals",
+    "Headquarters Location": "Pittsburgh, Pennsylvania",
+    "Date added": "1957-03-04",
+    "CIK": 79879,
+    "Founded": 1883
+  },
+  {
+    "symbol": "PPL",
+    "security": "ppl corporation",
+    "GICS Sector": "Utilities",
+    "GICS Sub-Industry": "Electric Utilities",
+    "Headquarters Location": "Allentown, Pennsylvania",
+    "Date added": "2001-10-01",
+    "CIK": 922224,
+    "Founded": 1920
+  },
+  {
+    "symbol": "PFG",
+    "security": "principal financial group",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Life & Health Insurance",
+    "Headquarters Location": "Des Moines, Iowa",
+    "Date added": "2002-07-22",
+    "CIK": 1126328,
+    "Founded": 1879
+  },
+  {
+    "symbol": "PG",
+    "security": "procter & gamble",
+    "GICS Sector": "Consumer Staples",
+    "GICS Sub-Industry": "Personal Care Products",
+    "Headquarters Location": "Cincinnati, Ohio",
+    "Date added": "1957-03-04",
+    "CIK": 80424,
+    "Founded": 1837
+  },
+  {
+    "symbol": "PGR",
+    "security": "progressive corporation",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Property & Casualty Insurance",
+    "Headquarters Location": "Mayfield Village, Ohio",
+    "Date added": "1997-08-04",
+    "CIK": 80661,
+    "Founded": 1937
+  },
+  {
+    "symbol": "PLD",
+    "security": "prologis",
+    "GICS Sector": "Real Estate",
+    "GICS Sub-Industry": "Industrial REITs",
+    "Headquarters Location": "San Francisco, California",
+    "Date added": "2003-07-17",
+    "CIK": 1045609,
+    "Founded": 1983
+  },
+  {
+    "symbol": "PRU",
+    "security": "prudential financial",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Life & Health Insurance",
+    "Headquarters Location": "Newark, New Jersey",
+    "Date added": "2002-07-22",
+    "CIK": 1137774,
+    "Founded": 1875
+  },
+  {
+    "symbol": "PEG",
+    "security": "public service enterprise group",
+    "GICS Sector": "Utilities",
+    "GICS Sub-Industry": "Electric Utilities",
+    "Headquarters Location": "Newark, New Jersey",
+    "Date added": "1957-03-04",
+    "CIK": 788784,
+    "Founded": 1903
+  },
+  {
+    "symbol": "PTC",
+    "security": "ptc inc.",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Application Software",
+    "Headquarters Location": "Boston, Massachusetts",
+    "Date added": "2021-04-20",
+    "CIK": 857005,
+    "Founded": 1985
+  },
+  {
+    "symbol": "PSA",
+    "security": "public storage",
+    "GICS Sector": "Real Estate",
+    "GICS Sub-Industry": "Self-Storage REITs",
+    "Headquarters Location": "Glendale, California",
+    "Date added": "2005-08-19",
+    "CIK": 1393311,
+    "Founded": 1972
+  },
+  {
+    "symbol": "PHM",
+    "security": "pultegroup",
+    "GICS Sector": "Consumer Discretionary",
+    "GICS Sub-Industry": "Homebuilding",
+    "Headquarters Location": "Atlanta, Georgia",
+    "Date added": "1984-04-30",
+    "CIK": 822416,
+    "Founded": 1956
+  },
+  {
+    "symbol": "PWR",
+    "security": "quanta services",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Construction & Engineering",
+    "Headquarters Location": "Houston, Texas",
+    "Date added": "2009-07-01",
+    "CIK": 1050915,
+    "Founded": 1997
+  },
+  {
+    "symbol": "QCOM",
+    "security": "qualcomm",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Semiconductors",
+    "Headquarters Location": "San Diego, California",
+    "Date added": "1999-07-22",
+    "CIK": 804328,
+    "Founded": 1985
+  },
+  {
+    "symbol": "DGX",
+    "security": "quest diagnostics",
+    "GICS Sector": "Health Care",
+    "GICS Sub-Industry": "Health Care Services",
+    "Headquarters Location": "Secaucus, New Jersey",
+    "Date added": "2002-12-12",
+    "CIK": 1022079,
+    "Founded": 1967
+  },
+  {
+    "symbol": "RL",
+    "security": "ralph lauren corporation",
+    "GICS Sector": "Consumer Discretionary",
+    "GICS Sub-Industry": "Apparel, Accessories & Luxury Goods",
+    "Headquarters Location": "New York City, New York",
+    "Date added": "2007-02-02",
+    "CIK": 1037038,
+    "Founded": 1967
+  },
+  {
+    "symbol": "RJF",
+    "security": "raymond james financial",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Investment Banking & Brokerage",
+    "Headquarters Location": "St. Petersburg, Florida",
+    "Date added": "2017-03-20",
+    "CIK": 720005,
+    "Founded": 1962
+  },
+  {
+    "symbol": "RTX",
+    "security": "rtx corporation",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Aerospace & Defense",
+    "Headquarters Location": "Waltham, Massachusetts",
+    "Date added": "1957-03-04",
+    "CIK": 101829,
+    "Founded": 1922
+  },
+  {
+    "symbol": "O",
+    "security": "realty income",
+    "GICS Sector": "Real Estate",
+    "GICS Sub-Industry": "Retail REITs",
+    "Headquarters Location": "San Diego, California",
+    "Date added": "2015-04-07",
+    "CIK": 726728,
+    "Founded": 1969
+  },
+  {
+    "symbol": "REG",
+    "security": "regency centers",
+    "GICS Sector": "Real Estate",
+    "GICS Sub-Industry": "Retail REITs",
+    "Headquarters Location": "Jacksonville, Florida",
+    "Date added": "2017-03-02",
+    "CIK": 910606,
+    "Founded": 1963
+  },
+  {
+    "symbol": "REGN",
+    "security": "regeneron pharmaceuticals",
+    "GICS Sector": "Health Care",
+    "GICS Sub-Industry": "Biotechnology",
+    "Headquarters Location": "Tarrytown, New York",
+    "Date added": "2013-05-01",
+    "CIK": 872589,
+    "Founded": 1988
+  },
+  {
+    "symbol": "RF",
+    "security": "regions financial corporation",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Regional Banks",
+    "Headquarters Location": "Birmingham, Alabama",
+    "Date added": "1998-08-28",
+    "CIK": 1281761,
+    "Founded": 1971
+  },
+  {
+    "symbol": "RSG",
+    "security": "republic services",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Environmental & Facilities Services",
+    "Headquarters Location": "Phoenix, Arizona",
+    "Date added": "2008-12-05",
+    "CIK": 1060391,
+    "Founded": "1998 (1981)"
+  },
+  {
+    "symbol": "RMD",
+    "security": "resmed",
+    "GICS Sector": "Health Care",
+    "GICS Sub-Industry": "Health Care Equipment",
+    "Headquarters Location": "San Diego, California",
+    "Date added": "2017-07-26",
+    "CIK": 943819,
+    "Founded": 1989
+  },
+  {
+    "symbol": "RVTY",
+    "security": "revvity",
+    "GICS Sector": "Health Care",
+    "GICS Sub-Industry": "Health Care Equipment",
+    "Headquarters Location": "Waltham, Massachusetts",
+    "Date added": "1985-05-31",
+    "CIK": 31791,
+    "Founded": 1937
+  },
+  {
+    "symbol": "ROK",
+    "security": "rockwell automation",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Electrical Components & Equipment",
+    "Headquarters Location": "Milwaukee, Wisconsin",
+    "Date added": "2000-03-12",
+    "CIK": 1024478,
+    "Founded": 1903
+  },
+  {
+    "symbol": "ROL",
+    "security": "rollins",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Environmental & Facilities Services",
+    "Headquarters Location": "Atlanta, Georgia",
+    "Date added": "2018-10-01",
+    "CIK": 84839,
+    "Founded": 1948
+  },
+  {
+    "symbol": "ROP",
+    "security": "roper technologies",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Electronic Equipment & Instruments",
+    "Headquarters Location": "Sarasota, Florida",
+    "Date added": "2009-12-23",
+    "CIK": 882835,
+    "Founded": 1981
+  },
+  {
+    "symbol": "ROST",
+    "security": "ross stores",
+    "GICS Sector": "Consumer Discretionary",
+    "GICS Sub-Industry": "Apparel Retail",
+    "Headquarters Location": "Dublin, California",
+    "Date added": "2009-12-21",
+    "CIK": 745732,
+    "Founded": 1982
+  },
+  {
+    "symbol": "RCL",
+    "security": "royal caribbean group",
+    "GICS Sector": "Consumer Discretionary",
+    "GICS Sub-Industry": "Hotels, Resorts & Cruise Lines",
+    "Headquarters Location": "Miami, Florida",
+    "Date added": "2014-12-05",
+    "CIK": 884887,
+    "Founded": 1997
+  },
+  {
+    "symbol": "SPGI",
+    "security": "s&p global",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Financial Exchanges & Data",
+    "Headquarters Location": "New York City, New York",
+    "Date added": "1957-03-04",
+    "CIK": 64040,
+    "Founded": 1917
+  },
+  {
+    "symbol": "CRM",
+    "security": "salesforce",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Application Software",
+    "Headquarters Location": "San Francisco, California",
+    "Date added": "2008-09-15",
+    "CIK": 1108524,
+    "Founded": 1999
+  },
+  {
+    "symbol": "SBAC",
+    "security": "sba communications",
+    "GICS Sector": "Real Estate",
+    "GICS Sub-Industry": "Telecom Tower REITs",
+    "Headquarters Location": "Boca Raton, Florida",
+    "Date added": "2017-09-01",
+    "CIK": 1034054,
+    "Founded": 1989
+  },
+  {
+    "symbol": "SLB",
+    "security": "schlumberger",
+    "GICS Sector": "Energy",
+    "GICS Sub-Industry": "Oil & Gas Equipment & Services",
+    "Headquarters Location": "Houston, Texas",
+    "Date added": "1957-03-04",
+    "CIK": 87347,
+    "Founded": 1926
+  },
+  {
+    "symbol": "STX",
+    "security": "seagate technology",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Technology Hardware, Storage & Peripherals",
+    "Headquarters Location": "Dublin, Ireland",
+    "Date added": "2012-07-02",
+    "CIK": 1137789,
+    "Founded": 1979
+  },
+  {
+    "symbol": "SRE",
+    "security": "sempra",
+    "GICS Sector": "Utilities",
+    "GICS Sub-Industry": "Multi-Utilities",
+    "Headquarters Location": "San Diego, California",
+    "Date added": "2017-03-17",
+    "CIK": 1032208,
+    "Founded": 1998
+  },
+  {
+    "symbol": "NOW",
+    "security": "servicenow",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Systems Software",
+    "Headquarters Location": "Santa Clara, California",
+    "Date added": "2019-11-21",
+    "CIK": 1373715,
+    "Founded": 2003
+  },
+  {
+    "symbol": "SHW",
+    "security": "sherwin-williams",
+    "GICS Sector": "Materials",
+    "GICS Sub-Industry": "Specialty Chemicals",
+    "Headquarters Location": "Cleveland, Ohio",
+    "Date added": "1964-06-30",
+    "CIK": 89800,
+    "Founded": 1866
+  },
+  {
+    "symbol": "SPG",
+    "security": "simon property group",
+    "GICS Sector": "Real Estate",
+    "GICS Sub-Industry": "Retail REITs",
+    "Headquarters Location": "Indianapolis, Indiana",
+    "Date added": "2002-06-26",
+    "CIK": 1063761,
+    "Founded": 2003
+  },
+  {
+    "symbol": "SWKS",
+    "security": "skyworks solutions",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Semiconductors",
+    "Headquarters Location": "Irvine, California",
+    "Date added": "2015-03-12",
+    "CIK": 4127,
+    "Founded": 2002
+  },
+  {
+    "symbol": "SJM",
+    "security": "j.m. smucker company (the)",
+    "GICS Sector": "Consumer Staples",
+    "GICS Sub-Industry": "Packaged Foods & Meats",
+    "Headquarters Location": "Orrville, Ohio",
+    "Date added": "2008-11-06",
+    "CIK": 91419,
+    "Founded": 1897
+  },
+  {
+    "symbol": "SW",
+    "security": "smurfit westrock",
+    "GICS Sector": "Materials",
+    "GICS Sub-Industry": "Paper & Plastic Packaging Products & Materials",
+    "Headquarters Location": "Dublin, Ireland",
+    "Date added": "2024-07-08",
+    "CIK": 2005951,
+    "Founded": 1934
+  },
+  {
+    "symbol": "SNA",
+    "security": "snap-on",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Industrial Machinery & Supplies & Components",
+    "Headquarters Location": "Kenosha, Wisconsin",
+    "Date added": "1982-09-30",
+    "CIK": 91440,
+    "Founded": 1920
+  },
+  {
+    "symbol": "SOLV",
+    "security": "solventum",
+    "GICS Sector": "Health Care",
+    "GICS Sub-Industry": "Health Care Technology",
+    "Headquarters Location": "Saint Paul, Minnesota",
+    "Date added": "2024-04-01",
+    "CIK": 1964738,
+    "Founded": 2023
+  },
+  {
+    "symbol": "SO",
+    "security": "southern company",
+    "GICS Sector": "Utilities",
+    "GICS Sub-Industry": "Electric Utilities",
+    "Headquarters Location": "Atlanta, Georgia",
+    "Date added": "1957-03-04",
+    "CIK": 92122,
+    "Founded": 1945
+  },
+  {
+    "symbol": "LUV",
+    "security": "southwest airlines",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Passenger Airlines",
+    "Headquarters Location": "Dallas, Texas",
+    "Date added": "1994-07-01",
+    "CIK": 92380,
+    "Founded": 1967
+  },
+  {
+    "symbol": "SWK",
+    "security": "stanley black & decker",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Industrial Machinery & Supplies & Components",
+    "Headquarters Location": "New Britain, Connecticut",
+    "Date added": "1982-09-30",
+    "CIK": 93556,
+    "Founded": 1843
+  },
+  {
+    "symbol": "SBUX",
+    "security": "starbucks",
+    "GICS Sector": "Consumer Discretionary",
+    "GICS Sub-Industry": "Restaurants",
+    "Headquarters Location": "Seattle, Washington",
+    "Date added": "2000-06-07",
+    "CIK": 829224,
+    "Founded": 1971
+  },
+  {
+    "symbol": "STT",
+    "security": "state street corporation",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Asset Management & Custody Banks",
+    "Headquarters Location": "Boston, Massachusetts",
+    "Date added": "2003-03-14",
+    "CIK": 93751,
+    "Founded": 1792
+  },
+  {
+    "symbol": "STLD",
+    "security": "steel dynamics",
+    "GICS Sector": "Materials",
+    "GICS Sub-Industry": "Steel",
+    "Headquarters Location": "Fort Wayne, Indiana",
+    "Date added": "2022-12-22",
+    "CIK": 1022671,
+    "Founded": 1993
+  },
+  {
+    "symbol": "STE",
+    "security": "steris",
+    "GICS Sector": "Health Care",
+    "GICS Sub-Industry": "Health Care Equipment",
+    "Headquarters Location": "Dublin, Ireland",
+    "Date added": "2019-12-23",
+    "CIK": 1757898,
+    "Founded": 1985
+  },
+  {
+    "symbol": "SYK",
+    "security": "stryker corporation",
+    "GICS Sector": "Health Care",
+    "GICS Sub-Industry": "Health Care Equipment",
+    "Headquarters Location": "Kalamazoo, Michigan",
+    "Date added": "2000-12-12",
+    "CIK": 310764,
+    "Founded": 1941
+  },
+  {
+    "symbol": "SMCI",
+    "security": "supermicro",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Technology Hardware, Storage & Peripherals",
+    "Headquarters Location": "San Jose, California",
+    "Date added": "2024-03-18",
+    "CIK": 1375365,
+    "Founded": 1993
+  },
+  {
+    "symbol": "SYF",
+    "security": "synchrony financial",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Consumer Finance",
+    "Headquarters Location": "Stamford, Connecticut",
+    "Date added": "2015-11-18",
+    "CIK": 1601712,
+    "Founded": 2003
+  },
+  {
+    "symbol": "SNPS",
+    "security": "synopsys",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Application Software",
+    "Headquarters Location": "Sunnyvale, California",
+    "Date added": "2017-03-16",
+    "CIK": 883241,
+    "Founded": 1986
+  },
+  {
+    "symbol": "SYY",
+    "security": "sysco",
+    "GICS Sector": "Consumer Staples",
+    "GICS Sub-Industry": "Food Distributors",
+    "Headquarters Location": "Houston, Texas",
+    "Date added": "1986-12-31",
+    "CIK": 96021,
+    "Founded": 1969
+  }
+]

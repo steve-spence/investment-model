@@ -182,7 +182,7 @@ if __name__ == "__main__":
     """
     isSaved = False
     
-    model = LSTM_Model(num_time_steps=30)
+    model = LSTM_Model(num_time_steps=30, news_dir='../data/news/')
 
     if isSaved:
         # then load it
