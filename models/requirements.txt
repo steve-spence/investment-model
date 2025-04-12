@@ -1,3 +1,5 @@
 fastapi
 uvicorn
 tensorflow
+numpy
+pandas
