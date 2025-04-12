@@ -1,16 +1,17 @@
+# Base image
 FROM python:3.10
 
-# Set working dir
-WORKDIR /models
+# Set working directory
+WORKDIR /app
 
-# Copy code
-COPY . .
+# Copy contents of models folder into /app
+COPY models/ .
 
 # Install dependencies
-RUN pip install --no-cache-dir fastapi uvicorn tensorflow pandas numpy
+RUN pip install --no-cache-dir -r requirements.txt
 
-# Expose API port
+# Expose FastAPI port
 EXPOSE 8000
 
-# Run the FastAPI server
+# Run the app
 CMD ["uvicorn", "serve:app", "--host", "0.0.0.0", "--port", "8000"]
