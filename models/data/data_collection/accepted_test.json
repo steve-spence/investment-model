@@ -1,0 +1,42 @@
+[
+{
+    "symbol": "SO",
+    "security": "southern company",
+    "GICS Sector": "Utilities",
+    "GICS Sub-Industry": "Electric Utilities",
+    "Headquarters Location": "Atlanta, Georgia",
+    "Date added": "1957-03-04",
+    "CIK": 92122,
+    "Founded": 1945
+  },
+  {
+    "symbol": "LUV",
+    "security": "southwest airlines",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Passenger Airlines",
+    "Headquarters Location": "Dallas, Texas",
+    "Date added": "1994-07-01",
+    "CIK": 92380,
+    "Founded": 1967
+  },
+  {
+    "symbol": "SWK",
+    "security": "stanley black & decker",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Industrial Machinery & Supplies & Components",
+    "Headquarters Location": "New Britain, Connecticut",
+    "Date added": "1982-09-30",
+    "CIK": 93556,
+    "Founded": 1843
+  },
+  {
+    "symbol": "SBUX",
+    "security": "starbucks",
+    "GICS Sector": "Consumer Discretionary",
+    "GICS Sub-Industry": "Restaurants",
+    "Headquarters Location": "Seattle, Washington",
+    "Date added": "2000-06-07",
+    "CIK": 829224,
+    "Founded": 1971
+  }
+]

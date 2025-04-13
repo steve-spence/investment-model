@@ -6,7 +6,7 @@ from tensorflow.keras.layers import Input, LSTM, Dense, Dropout
 from tensorflow.keras.optimizers import Adam
 
 class LSTM_Model:
-    def __init__(self, num_time_steps=50, features=None, news_dir='../data/news/'):
+    def __init__(self, num_time_steps=50, features=None, news_dir='data/news/'):
         self.time_steps = num_time_steps
         self.stock_data = {}
         self.model = None
@@ -182,7 +182,7 @@ if __name__ == "__main__":
     """
     isSaved = True
     
-    model = LSTM_Model(num_time_steps=30, news_dir='../data/news/')
+    model = LSTM_Model(num_time_steps=30, news_dir='data/news/')
 
     if isSaved:
         # then load it
