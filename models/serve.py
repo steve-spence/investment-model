@@ -18,7 +18,7 @@ class PredictRequest(BaseModel):
 @app.post("/predict")
 def predict(request: PredictRequest):
     try:
-        pred = model.predict(request.symbol)
+        pred = float(model.predict(request.symbol))
         return {"symbol": request.symbol, "prediction": pred, "movement": "Up" if pred > 0.5 else "Down"}
     except Exception as e:
         return {"error": str(e)}
