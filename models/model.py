@@ -162,7 +162,10 @@ class LSTM_Model:
     def save_model(self, filepath='lstm_model.keras'):
         """Save the trained model to disk"""
 
-        os.makedirs(os.path.dirname(filepath), exist_ok=True)
+        dir_path = os.path.dirname(filepath)
+        if dir_path:  
+            os.makedirs(dir_path, exist_ok=True)
+
         self.model.save(filepath)
         print(f"Model saved to {filepath}")
     
@@ -180,7 +183,8 @@ if __name__ == "__main__":
     """"
     do you want to run the saved model?
     """
-    isSaved = True
+    isSaved = False
+    os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
     
     model = LSTM_Model(num_time_steps=30, news_dir='data/news/')
 
