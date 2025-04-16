@@ -4,6 +4,9 @@ import pandas as pd
 from tensorflow.keras.models import Model, load_model
 from tensorflow.keras.layers import Input, LSTM, Dense, Dropout
 from tensorflow.keras.optimizers import Adam
+from datetime import datetime, timedelta
+
+TIME_SERIES_ENTRIES = 7
 
 class LSTM_Model:
     def __init__(self, num_time_steps=50, features=None, news_dir='data/news/'):
@@ -15,6 +18,9 @@ class LSTM_Model:
         self.news_dir = news_dir
         self.feature_dim = 8  # 7 prices + 1 sentiment
         self.bad_entries = 0
+
+    
+
 
     def create_sample_data(self, total_entries=60):
         """Create sample data for testing purposes"""
@@ -39,7 +45,8 @@ class LSTM_Model:
         """Load all JSON files from news directory"""
         if not os.path.exists(self.news_dir):
             raise FileNotFoundError(f"News directory not found: {self.news_dir}")
-            
+        
+        print(os.listdir(self.news_dir))
         for filename in os.listdir(self.news_dir):
             symbol = os.path.splitext(filename)[0]
             file_path = os.path.join(self.news_dir, filename)
@@ -68,22 +75,62 @@ class LSTM_Model:
         
         for symbol, df in self.stock_data.items():
             # soft all entires in df by published and get rid of old indexes and make new ones
-            df = df.sort_values('published').reset_index(drop=True) 
+            df = df.sort_values('published').reset_index(drop=True)
 
             feature_vectors = []
             
-            # make feature vectors
+            # ok my date is 2025-05-11 and the prices were {1,2,3,4,5,6} then we need to see the dates and messs with this
+            # ok so if the published time decoded becomes 2025-05-11 then look at time and see closest time object after its posted so next hour
+            # then you see if adding 4 (hours after article is posted) to the index and seeing what the price is
+            # if it goes over the len of list you need to:
+            # a.) to loop through the next entires in the dataframe and and convert your time str to assuming time str loooks like
+            # 2025-04-22 then date[:-2] the article posting day an
+            # b.) look at the time for the end of the current day so if the time of posting closest is not list[-1] then you just get the closing price and infer from that. 
+            # if it is the length of the list then loop through next entires until day is next day and get that articles time series and get its at index[1] this index is the 
+            # closest time after market close time so the next day either 9:30[0] or 10:30[1]
+            # then we can get an incrase or decrease based on the change here and if it goes up 
+            # choices: 1 and 0 current vs decimal value
+            # 1 and 0 for now
+            # so then u have X={prices, sentiment}, y={0,1,0}
+            # 
+            # # market open from 9:30 - 4 
+            # 
+            # the then you see the increase. How do you learn from this. 
+
+            next_day_prices = []
+
+            # Preprocess to map date -> prices for faster lookup
+            date_to_prices = {}
             for _, row in df.iterrows():
                 try:
-                    # Process prices (throws error cuz row['day_prices'] is a float somehow)
-                    prices = row['day_prices'].items()
+                    date = datetime.fromtimestamp(row['published']).date()
+                    prices = row['day_prices']
+                    if isinstance(prices, dict) and len(prices) == 7:
+                        date_to_prices[date] = [p[1] for p in sorted(prices.items())]
+                except:
+                    continue
 
-                    # bad entry with less than 7 time entries
-                    if len(prices) != 7: #-----------------------
-                        self.bad_entries += 1
-                        continue
-                except Exception:
-                    self.bad_entries += 1
+            # Now go through articles
+            for _, row in df.iterrows():
+                try:
+                    time = datetime.fromtimestamp(row['published'])
+                    posting_date = time.date()
+                    posting_hour = time.astimezone().hour
+
+                    # Pick next day if article was posted after market close
+                    if posting_hour >= 16:
+                        target_date = posting_date + timedelta(days=1)
+                    else:
+                        target_date = posting_date
+
+                    # Look up prices for that date
+                    if target_date in date_to_prices:
+                        next_day_prices.append((target_date, date_to_prices[target_date]))
+                    else:
+                        print(f"Missing prices for {target_date}")
+
+                except Exception as e:
+                    print(f"Error: {e}")
                     continue
 
 
@@ -94,12 +141,12 @@ class LSTM_Model:
                 feature_vectors.append(prices + [sentiment])
             
             # learn from the features in range of the time step
+            # feat vect: [1.,2.,3.,4.,5.,6.,.24] || [ prices,  sentiment ]
             for i in range(len(feature_vectors) - self.time_steps):
                 try:
                     sequence = feature_vectors[i:i+self.time_steps] # todo : print these out and make sure the values are right
                     next_day_close = feature_vectors[i+self.time_steps][6]
                     current_close = sequence[-1][6]
-                    #print(current_close - next_day_close)
                     all_sequences.append(sequence)
                     all_labels.append(1 if next_day_close > current_close else 0)
                 except IndexError:
@@ -136,7 +183,10 @@ class LSTM_Model:
         # Process historical data
         for _, row in df.iterrows():
             prices = sorted(row['day_prices'].items())
-            prices = [p[1] for p in prices]
+            prices = [p[1] for p in prices] # get prices not times | Time! thats it i need to get time from arcticle title from 4 intervals before
+
+
+
             sentiment = float(row['sentiment'])
             feature_vectors.append(prices + [sentiment])
         
@@ -186,7 +236,7 @@ if __name__ == "__main__":
     isSaved = False
     os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
     
-    model = LSTM_Model(num_time_steps=30, news_dir='data/news/')
+    model = LSTM_Model(num_time_steps=30, news_dir='models/data/news/')
 
     if isSaved:
         # then load it
@@ -196,7 +246,7 @@ if __name__ == "__main__":
         model.load_all_data()
         model.create_model()
         model.fit(epochs=4, batch_size=32, validation_split=0.2)
-        model.save_model()
+        #model.save_model()
      
     # todo : fix the save and load im tired im going to bed
 
